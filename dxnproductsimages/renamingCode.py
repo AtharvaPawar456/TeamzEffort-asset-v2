@@ -40,73 +40,44 @@ folderList = [
     # "dxn-2in1",
     # "dxn-butterfly-pea",
 
-    "dxn-breakfast-cookies",
-    "dxn-coconut-oil",
-    "dxn-coconut-sugar",
-    "dxn-cordyceps-cereals",
-    "dxn-cordyceps-coffee",
-    "dxn-cordyceps-tablets",
-    "dxn-GL",
-    "dxn-linzhi-3-in-1-coffee",
-    "dxn-lions-mane",
-    "dxn-mongra-safron",
-    "dxn-moringa",
-    "dxn-morinzhi-juice",
-    "dxn-morinzhi-powder",
-    "dxn-multiflora-honey",
-    "dxn-panax-ginseng",
-    "dxn-pink-salt",
-    "dxn-radish-salt",
-    "dxn-raw-hing",
-    "dxn-red-chilli-powder",
-    "dxn-RG",
-    "dxn-roselle-juice",
-    "dxn-roselle-tablet",
-    "dxn-shatavari-kalpa",
-    "dxn-shilajit",
-    "dxn-sitopan",
-    "dxn-turmeric-powder",
-    "dxn-zhi-mocha"
+    # "dxn-breakfast-cookies",
+    # "dxn-coconut-oil",
+    # "dxn-coconut-sugar",
+    # "dxn-cordyceps-cereals",
+    # "dxn-cordyceps-coffee",
+    # "dxn-cordyceps-tablets",
+    # "dxn-GL",
+    # "dxn-linzhi-3-in-1-coffee",
+    # "dxn-lions-mane",
+    # "dxn-mongra-safron",
+    # "dxn-moringa",
+    # "dxn-morinzhi-juice",
+    # "dxn-morinzhi-powder",
+    # "dxn-multiflora-honey",
+    # "dxn-panax-ginseng",
+    # "dxn-pink-salt",
+    # "dxn-radish-salt",
+    # "dxn-raw-hing",
+    # "dxn-red-chilli-powder",
+    # "dxn-RG",
+    # "dxn-roselle-juice",
+    # "dxn-roselle-tablet",
+    # "dxn-shatavari-kalpa",
+    # "dxn-shilajit",
+    # "dxn-sitopan",
+    # "dxn-turmeric-powder",
+    # "dxn-zhi-mocha"
+    
+    "dxn-ganoderma"
     
 ]
 
-for folder in folderList:
-    renameAllFiles(folder)
+# for folder in folderList:
+#     renameAllFiles(folder)
 
 
-# files = os.listdir("dxn-2in1")
-# files = os.listdir("dxn-cocozhi")
-# files = os.listdir("dxn-tooth-paste")
-# files = os.listdir("dxn-2in1-v2")
-# tempPath = "https://raw.githubusercontent.com/AtharvaPawar456/TeamzEffort/refs/heads/main/static/dxnproductsimages/Dxn%20Spirulina.png"
-# tempPath = "https://raw.githubusercontent.com/AtharvaPawar456/TeamzEffort/refs/heads/main/static/dxnproductsimages/dxn-2in1/"
-# tempPath = "https://raw.githubusercontent.com/AtharvaPawar456/TeamzEffort/refs/heads/main/static/dxnproductsimages/dxn-cocozhi/"
-# tempPath = "https://raw.githubusercontent.com/AtharvaPawar456/TeamzEffort/refs/heads/main/static/dxnproductsimages/dxn-tooth-paste/"
-# tempPath = "https://raw.githubusercontent.com/AtharvaPawar456/TeamzEffort/refs/heads/main/static/dxnproductsimages/dxn-2in1/"
-
-
-# files = os.listdir("dxn-ashwagandha")
-# tempPath = "https://raw.githubusercontent.com/AtharvaPawar456/TeamzEffort/refs/heads/main/static/dxnproductsimages/dxn-ashwagandha/"
-# files = os.listdir("dxn-gano-oil")
-# tempPath = "https://raw.githubusercontent.com/AtharvaPawar456/TeamzEffort/refs/heads/main/static/dxnproductsimages/dxn-gano-oil/"
-# files = os.listdir("dxn-gano-tea")
-# tempPath = "https://raw.githubusercontent.com/AtharvaPawar456/TeamzEffort/refs/heads/main/static/dxnproductsimages/dxn-gano-tea/"
-# files = os.listdir("dxn-gokshura")
-# tempPath = "https://raw.githubusercontent.com/AtharvaPawar456/TeamzEffort/refs/heads/main/static/dxnproductsimages/dxn-gokshura/"
-# files = os.listdir("dxn-neeli-oil")
-# tempPath = "https://raw.githubusercontent.com/AtharvaPawar456/TeamzEffort/refs/heads/main/static/dxnproductsimages/dxn-neeli-oil/"
-# files = os.listdir("dxn-tea-tree-cream")
-# tempPath = "https://raw.githubusercontent.com/AtharvaPawar456/TeamzEffort/refs/heads/main/static/dxnproductsimages/dxn-tea-tree-cream/"
-# files = os.listdir("dxn-super-green")
-# tempPath = "https://raw.githubusercontent.com/AtharvaPawar456/TeamzEffort/refs/heads/main/static/dxnproductsimages/dxn-super-green/"
-# files = os.listdir("dxn-kombucha")
-# tempPath = "https://raw.githubusercontent.com/AtharvaPawar456/TeamzEffort/refs/heads/main/static/dxnproductsimages/dxn-kombucha/"
-# files = os.listdir("dxn-soap")
-# tempPath = "https://raw.githubusercontent.com/AtharvaPawar456/TeamzEffort/refs/heads/main/static/dxnproductsimages/dxn-soap/"
-# files = os.listdir("dxn-soap/banners")
-# tempPath = "https://raw.githubusercontent.com/AtharvaPawar456/TeamzEffort/refs/heads/main/static/dxnproductsimages/dxn-soap/banners/"
-# files = os.listdir("dxn-soap/shorts")
-# tempPath = "https://raw.githubusercontent.com/AtharvaPawar456/TeamzEffort/refs/heads/main/static/dxnproductsimages/dxn-soap/shorts/"
+files = os.listdir("dxn-ganoderma")
+tempPath = "https://raw.githubusercontent.com/AtharvaPawar456/TeamzEffort/refs/heads/main/static/dxnproductsimages/dxn-soap/shorts/"
 
 
 

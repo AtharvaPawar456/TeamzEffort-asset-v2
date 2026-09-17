@@ -71,13 +71,13 @@ def uploadPromoImgData(piProdId, piHighlightTitle="*", piMainImgBaseTxt="*"):
 
 imageUrls = [
 
-    "https://raw.githubusercontent.com/AtharvaPawar456/TeamzEffort/refs/heads/main/static/dxnproductsimages/dxn-kombucha/file_199.mp4"
+    # "https://raw.githubusercontent.com/AtharvaPawar456/TeamzEffort/refs/heads/main/static/dxnproductsimages/dxn-kombucha/file_199.mp4"
+
+
 
     
-    https://raw.githubusercontent.com/AtharvaPawar456/TeamzEffort/refs/heads/main/static/dxnproductsimages/dxn-kombucha/file_199.mp4
     
-    
-    
+
     
     
     
@@ -86,15 +86,14 @@ imageUrls = [
     
 ]
 
-
-
-# result = uploadPromoImgData(piProdId=4,piHighlightTitle="*",piMainImgBaseTxt=imgpath)
 # result = uploadPromoImgData(piProdId=7,piHighlightTitle="*",piMainImgBaseTxt=imgpath)
 
-# imageUrlsLen = len(imageUrls)
-# for index, imgpath in enumerate(imageUrls):
-#     result = uploadPromoImgData(piProdId=4 ,piHighlightTitle="*",piMainImgBaseTxt=imgpath)
-#     print(f"{index}/{imageUrlsLen} : {result}")
+
+
+imageUrlsLen = len(imageUrls)
+for index, imgpath in enumerate(imageUrls):
+    result = uploadPromoImgData(piProdId=16 ,piHighlightTitle="*",piMainImgBaseTxt=imgpath)
+    print(f"{index}/{imageUrlsLen} : {result}")
 
 
 
